@@ -5,7 +5,10 @@ const amqp = require("amqplib");
 exports.connect = async () => {
   console.log("in connect");
   //channel;
+  
   try {
+
+    // this message can be replace with req.bosy parameters as well.
     const message = {
       number: 32,
       name: "Madhu Kumar KS",
