@@ -1,0 +1,19 @@
+rm -rf .git
+git init
+git add .
+git commit -m
+create new repo and get the Remote origin 
+run that http remote origin
+git push origin master
+
+git reset // to revert added files
+
+rename the branch
+
+git branch -m "new branch name"
+
+git origin push "new brnach name"
+
+Delete the branch
+
+git push origin --delete old branch name
